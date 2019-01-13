@@ -12,7 +12,7 @@ mnist_easy_net代码实现了对mnist数据集的分类，通过Python中numpy�
 
 1、当前代码使用的Python版本号为3.6.4。
 
-2、下载代码到本地。
+2、下载代码到本地，可以点击网页中的Clone or download按钮然后再点击Download ZIP实现对当前工程的下载。如果系统中安装了git工具，也可以通过命令：git clone --recursive https://github.com/suguliwei/mnist_easy_net。
 
 3、将data文件夹下四个文件解压到data文件夹下。
 
