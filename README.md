@@ -16,8 +16,13 @@ mnist_easy_net代码实现了对mnist数据集的分类，通过Python中numpy�
 
 3、将data文件夹下四个文件解压到data文件夹下。
 
-4、运行python test.py命令测试model文件夹下模型的准确率或者运行python train.py命令实现模型的训练。
+4、运行python test.py命令测试model文件夹下模型的准确率或者运行python train.py命令实现模型的训练，当前代码当获得90%以上的准确率自动停止训练，
+如果想要得到更好的结果，可以通过修改train.py文件中stop_accuracy_rate的值来实现。
 
-5、model文件夹下存放的是已训练好的模型文件，它在mnist测试集上的分类正确率为90.07%，data文件夹下存放的是mnist数据集，core文件夹
+
+工程内容：
+
+1、model文件夹下存放的是已训练好的模型文件，它在mnist测试集上的分类正确率为90.07%，data文件夹下存放的是mnist数据集，core文件夹
 下存放的是各个神经网络层的实现。
 
+2、当前项目的神经网络模型仅仅包含一层全连接层、一层sigmoid层以及一层softmax层。
