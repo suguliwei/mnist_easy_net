@@ -14,9 +14,10 @@ mnist_easy_net代码实现了对mnist数据集的分类，通过Python中numpy�
 
 2、下载代码到本地。
 
-3、将mnist数据集下载并解压到data文件夹下，下载地址为：http://yann.lecun.com/exdb/mnist/。
+3、将data文件夹下四个文件解压到data文件夹下。
 
-4、最外面的train.py文件是训练代码部分，test.py是测试代码部分。
+4、运行python test.py命令测试model文件夹下模型的准确率或者运行python train.py命令实现模型的训练。
 
-5、model文件夹下存放的是已训练好的模型文件，它在mnist测试集上的分类正确率为90.07%。
+5、model文件夹下存放的是已训练好的模型文件，它在mnist测试集上的分类正确率为90.07%，data文件夹下存放的是mnist数据集，core文件夹
+下存放的是各个神经网络层的实现。
 
