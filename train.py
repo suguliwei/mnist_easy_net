@@ -21,7 +21,8 @@ if __name__ == '__main__':
     train_label[labels[0]] = 1
     inputx = (img[0] - 128) / 256.0
     
-    batch_size = 1
+    batch_size = 1;
+    stop_accuracy_rate = 0.9;
     
     image_number = 60000
     for k in range(3000):
@@ -63,7 +64,7 @@ if __name__ == '__main__':
                 
         print("epoch = ", k, "   ", count / 10000)
         
-        if count / 10000 > 0.93:
+        if count / 10000 > stop_accuracy_rate:
             np.save("./model/w.npy", dense.w)
             np.save("./model/b.npy", dense.b)
             break
