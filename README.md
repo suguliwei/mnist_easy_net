@@ -14,7 +14,7 @@ mnist_easy_net代码实现了对mnist数据集的分类，通过Python中numpy�
 
 2、下载代码到本地。
 
-3、将mnist数据集下载并解压到data文件夹下。
+3、将mnist数据集下载并解压到data文件夹下，下载地址为：http://yann.lecun.com/exdb/mnist/。
 
 4、最外面的train.py文件是训练代码部分，test.py是测试代码部分。
 
